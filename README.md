@@ -1,5 +1,7 @@
 # Password Generator
 
+Don't forget to submit [help requests](https://github.com/CS-at-GA/APCSP-01-PasswordGenerator/issues/new?assignees=gajoswald&labels=help+wanted&template=help-request.md&title=Help+Request), [requests for clarity](https://github.com/CS-at-GA/APCSP-01-PasswordGenerator/issues/new?assignees=gajoswald&labels=documentation&template=request-for-clarity.md&title=Request+for+Clarity), or [bug reports](https://github.com/CS-at-GA/APCSP-01-PasswordGenerator/issues/new?assignees=gajoswald&labels=bug&template=bug_report.md&title=) on github as well.
+
 ## Pre-reads
 * The [Original DiceWare Proposal](https://theworld.com/~reinhold/diceware.html)
 * A Good Overview on the [Current State of DiceWare](https://diceware.dmuth.org/)
