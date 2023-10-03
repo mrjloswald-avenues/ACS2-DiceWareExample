@@ -1,7 +1,7 @@
 let strings;
 let wordList;
 let dieRolls = [];
-let password = "";
+let passphrase = "";
 const dieFaces = ['1','2','3','4','5','6'];
 
 function preload() {
@@ -9,24 +9,24 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth-20, windowHeight-20);
   initializeWordList();
+  textSize(36)
+  textAlign(CENTER,CENTER)
   noLoop();
 }
 
 function draw() {
   background('white');
   const rollsString = dieRolls.join(', ');
-  const rsw = textWidth(rollsString);
-  text(rollsString, width/2 - rsw/2, 0.33*height);
-  const pw = textWidth(password);
-  text(password, width/2 - pw/2, 0.67*height)
+  text(rollsString, width/2, 0.33*height);
+  text(passphrase, width/2, 0.67*height)
 }
 
 function keyPressed() {
   dieRolls.push(random(dieFaces));
   while( dieRolls.length > 5 ) dieRolls.shift()
-  password = getWordForKey( dieRolls.join('') );
+  passphrase = getWordForKey( dieRolls.join('') );
   redraw();
 }
 
@@ -61,5 +61,6 @@ function loadStringsIntoList() {
     i = parseInt(i);
     wordList[i] = string;
   }
+  // console.log( wordList )
 }
 

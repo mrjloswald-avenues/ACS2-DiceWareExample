@@ -1,4 +1,4 @@
-# Password Generator
+# Passphrase Generator
 
 Don't forget to submit [help requests](https://github.com/CS-at-GA/APCSP-01-PasswordGenerator/issues/new?assignees=gajoswald&labels=help+wanted&template=help-request.md&title=Help+Request), [requests for clarity](https://github.com/CS-at-GA/APCSP-01-PasswordGenerator/issues/new?assignees=gajoswald&labels=documentation&template=request-for-clarity.md&title=Request+for+Clarity), or [bug reports](https://github.com/CS-at-GA/APCSP-01-PasswordGenerator/issues/new?assignees=gajoswald&labels=bug&template=bug_report.md&title=) on github as well.
 
@@ -53,19 +53,19 @@ We then need to convert the string `i` into a number. The code here uses [`parse
 
 ## Assignment
 
-Using the DiceWare project as a starting point, design a project that allows a user to generate strong passwords. A minimal implementation of this project would be displaying five randomly generated words using the DiceWare mechanic as per the original proposal. 
+Using the DiceWare project as a starting point, design a project that allows a user to generate strong passphrases. A minimal implementation of this project would be displaying five randomly generated words using the DiceWare mechanic as per the original proposal. 
 
 ### Requirements
 * Your program must respond to user input. 
-* Your program must allow for the creation of multiple passwords (hitting the play button again doesn't count).
-* The entire password must be displayed on the screen. 
-* You must use the DiceWare mechanic in creating your passwords. 
+* Your program must allow for the creation of multiple passphrases (hitting the play button again doesn't count).
+* The entire passphrase must be displayed on the screen. 
+* You must use the DiceWare mechanic in creating your passphrases. 
 
 ### _Some_ Ideas for Ways to Expand on This Project. 
 * allowing the user to generate however many words the like.
 * allowing the user to alter the words by capitalizing the start or all of the word.
-* allowing the user to delete words from the password.
-* allowing the user to insert characters or numbers (randomly or otherwise) into the password (and to remove them?).
+* allowing the user to delete words from the passphrase.
+* allowing the user to insert characters or numbers (randomly or otherwise) into the passphrase (and to remove them?).
 * using a different word list
-* allowing the user to copy the generated password from the clipboard or to output the password to file. 
+* allowing the user to copy the generated passphrase from the clipboard or to output the passphrase to file. 
 
